@@ -25,7 +25,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.2179" Y="0.6998" />
             <PreSize X="0.0479" Y="0.0562" />
-            <TextColor A="255" R="65" G="65" B="70" />
+            <TextColor A="255" R="52" G="52" B="195" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
             <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
             <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
