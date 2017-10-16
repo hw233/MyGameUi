@@ -7,7 +7,7 @@
         <LuaEncryptSign Value="" />
         <Android_PackageName Value="org.cocos.MyGameUi" />
         <AndroidkeyStore Value="" />
-        <AndroidVersion Value="" />
+        <AndroidVersion Value="android-10" />
         <iOS_Target Value="MyGameUi-mobile" />
         <iOS_BundleID Value="iPhone Developer: wangchengcheng wangchengcheng (H2U7TTJ2TX)" />
         <Platform Value="None" />
@@ -26,14 +26,6 @@
         <LastPublishType Value="Resource" />
         <IsLastPublish Value="True" />
         <LastRunType Value="Mac" />
-      </Value>
-    </Item>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="MainScene.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="MainScene.csd" />
       </Value>
     </Item>
   </Properties>
