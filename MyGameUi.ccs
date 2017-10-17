@@ -12,7 +12,7 @@
           <Image Name="ui_com_tongyong_02.png" />
         </Folder>
         <Folder Name="layers">
-          <Project Name="chatLayer.csd" Type="Layer" />
+          <Project Name="layerTest.csd" Type="Layer" />
         </Folder>
         <Folder Name="scenes">
           <Project Name="MainScene.csd" Type="Scene" />
