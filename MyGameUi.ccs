@@ -12,11 +12,12 @@
           <Image Name="ui_com_tongyong_02.png" />
         </Folder>
         <Folder Name="layers">
-          <Project Name="test_layer.csd" Type="Layer" />
           <Project Name="login_layer.csd" Type="Layer" />
+          <Project Name="test_layer.csd" Type="Layer" />
         </Folder>
         <Folder Name="scenes">
-          <Project Name="MainScene.csd" Type="Scene" />
+          <Project Name="main_scene_test.csd" Type="Scene" />
+          <Project Name="main_scene.csd" Type="Scene" />
         </Folder>
         <Folder Name="views" />
       </RootFolder>
