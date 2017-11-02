@@ -6,7 +6,7 @@
       <ObjectData Name="Layer" Tag="9" ctype="GameLayerObjectData">
         <Size X="1136.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="PanelLogin" Visible="False" ActionTag="-1107706250" Tag="10" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="265.5819" RightMargin="220.4181" TopMargin="149.5555" BottomMargin="140.4445" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="PanelLogin" ActionTag="-1107706250" Tag="10" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="265.5968" RightMargin="220.4032" TopMargin="149.5840" BottomMargin="140.4160" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="650.0000" Y="350.0000" />
             <Children>
               <AbstractNodeData Name="btnLoginCancel" ActionTag="1600355641" CallBackType="Click" CallBackName="btnClickCancel" Tag="12" IconVisible="False" LeftMargin="566.7522" RightMargin="3.2478" TopMargin="3.3351" BottomMargin="286.6649" TouchEnable="True" FontSize="18" ButtonText="关闭" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
@@ -41,7 +41,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="TextField_1" ActionTag="-920765114" Tag="14" IconVisible="False" LeftMargin="207.5909" RightMargin="142.4091" TopMargin="47.9664" BottomMargin="252.0336" TouchEnable="True" FontSize="40" IsCustomSize="True" LabelText="" PlaceHolderText="账号" MaxLengthText="10" ctype="TextFieldObjectData">
+              <AbstractNodeData Name="textFieldAccountLogin" ActionTag="-920765114" Tag="14" IconVisible="False" LeftMargin="207.5909" RightMargin="142.4091" TopMargin="47.9664" BottomMargin="252.0336" TouchEnable="True" FontSize="40" IsCustomSize="True" LabelText="" PlaceHolderText="账号" MaxLengthText="10" ctype="TextFieldObjectData">
                 <Size X="300.0000" Y="50.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="357.5909" Y="277.0336" />
@@ -61,7 +61,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="TextField_1_0" ActionTag="729962996" Tag="16" IconVisible="False" LeftMargin="205.2982" RightMargin="144.7018" TopMargin="137.5349" BottomMargin="162.4651" TouchEnable="True" FontSize="40" IsCustomSize="True" LabelText="" PlaceHolderText="密码" MaxLengthText="10" PasswordEnable="True" ctype="TextFieldObjectData">
+              <AbstractNodeData Name="textFieldPasswordLogin" ActionTag="729962996" Tag="16" IconVisible="False" LeftMargin="205.2982" RightMargin="144.7018" TopMargin="137.5349" BottomMargin="162.4651" TouchEnable="True" FontSize="40" IsCustomSize="True" LabelText="" PlaceHolderText="密码" MaxLengthText="10" PasswordEnable="True" ctype="TextFieldObjectData">
                 <Size X="300.0000" Y="50.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="355.2982" Y="187.4651" />
@@ -99,7 +99,7 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint />
-            <Position X="265.5819" Y="140.4445" />
+            <Position X="265.5968" Y="140.4160" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.2338" Y="0.2194" />
@@ -109,7 +109,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PanelRegister" ActionTag="813713588" Tag="17" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="265.0229" RightMargin="220.9772" TopMargin="120.1144" BottomMargin="119.8856" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="PanelRegister" Visible="False" ActionTag="813713588" Tag="17" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="265.0288" RightMargin="220.9712" TopMargin="120.1280" BottomMargin="119.8720" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="650.0000" Y="400.0000" />
             <Children>
               <AbstractNodeData Name="btnLoginCancel" ActionTag="-189215889" CallBackType="Click" CallBackName="btnClickCancel" Tag="18" IconVisible="False" LeftMargin="570.2714" RightMargin="-0.2714" TopMargin="2.3000" BottomMargin="337.7000" TouchEnable="True" FontSize="18" ButtonText="关闭" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
@@ -118,7 +118,7 @@
                 <Position X="610.2714" Y="367.7000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.9389" Y="0.9192" />
+                <PrePosition X="0.9389" Y="0.9193" />
                 <PreSize X="0.1231" Y="0.1500" />
                 <FontResource Type="Normal" Path="fonts/fzzy.ttf" Plist="" />
                 <TextColor A="255" R="65" G="65" B="70" />
@@ -144,14 +144,14 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="TextField_1" ActionTag="207293059" Tag="20" IconVisible="False" LeftMargin="205.8297" RightMargin="144.1703" TopMargin="64.5294" BottomMargin="285.4706" TouchEnable="True" FontSize="40" IsCustomSize="True" LabelText="" PlaceHolderText="账号" MaxLengthText="10" ctype="TextFieldObjectData">
-                <Size X="300.0000" Y="50.0000" />
+              <AbstractNodeData Name="textFieldAccount" ActionTag="207293059" Tag="20" IconVisible="False" LeftMargin="205.0054" RightMargin="64.9946" TopMargin="73.5687" BottomMargin="276.4313" TouchEnable="True" FontSize="30" IsCustomSize="True" LabelText="" PlaceHolderText="4-12个英文/数字" MaxLengthEnable="True" MaxLengthText="12" ctype="TextFieldObjectData">
+                <Size X="380.0000" Y="50.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="355.8297" Y="310.4706" />
+                <Position X="395.0054" Y="301.4313" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5474" Y="0.7762" />
-                <PreSize X="0.4615" Y="0.1250" />
+                <PrePosition X="0.6077" Y="0.7536" />
+                <PreSize X="0.5846" Y="0.1250" />
               </AbstractNodeData>
               <AbstractNodeData Name="Text_1" ActionTag="-1043610194" Tag="21" IconVisible="False" LeftMargin="106.2141" RightMargin="463.7859" TopMargin="65.2816" BottomMargin="289.7184" FontSize="40" LabelText="账号" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="80.0000" Y="45.0000" />
@@ -164,14 +164,14 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="TextField_1_0" ActionTag="-1989362222" Tag="22" IconVisible="False" LeftMargin="203.5383" RightMargin="146.4617" TopMargin="145.2991" BottomMargin="204.7009" TouchEnable="True" FontSize="40" IsCustomSize="True" LabelText="" PlaceHolderText="密码" MaxLengthText="10" PasswordEnable="True" ctype="TextFieldObjectData">
-                <Size X="300.0000" Y="50.0000" />
+              <AbstractNodeData Name="textFieldPassword" ActionTag="-1989362222" Tag="22" IconVisible="False" LeftMargin="203.7064" RightMargin="66.2936" TopMargin="148.3124" BottomMargin="201.6876" TouchEnable="True" FontSize="30" IsCustomSize="True" LabelText="" PlaceHolderText="4-12个英文/数字/点" MaxLengthEnable="True" MaxLengthText="12" PasswordEnable="True" ctype="TextFieldObjectData">
+                <Size X="380.0000" Y="50.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="353.5383" Y="229.7009" />
+                <Position X="393.7064" Y="226.6876" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5439" Y="0.5743" />
-                <PreSize X="0.4615" Y="0.1250" />
+                <PrePosition X="0.6057" Y="0.5667" />
+                <PreSize X="0.5846" Y="0.1250" />
               </AbstractNodeData>
               <AbstractNodeData Name="Text_1_0" ActionTag="-512470495" Tag="23" IconVisible="False" LeftMargin="104.7225" RightMargin="465.2775" TopMargin="145.2919" BottomMargin="209.7081" FontSize="40" LabelText="密码" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="80.0000" Y="45.0000" />
@@ -200,13 +200,13 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="TextField_1_0_0" ActionTag="-1431262003" Tag="25" IconVisible="False" LeftMargin="202.9793" RightMargin="147.0207" TopMargin="211.6137" BottomMargin="138.3863" TouchEnable="True" FontSize="40" IsCustomSize="True" LabelText="" PlaceHolderText="再次输出密码" MaxLengthText="10" PasswordEnable="True" ctype="TextFieldObjectData">
+              <AbstractNodeData Name="textFieldPasswordAgain" ActionTag="-1431262003" Tag="25" IconVisible="False" LeftMargin="205.9939" RightMargin="144.0061" TopMargin="214.6268" BottomMargin="135.3732" TouchEnable="True" FontSize="30" IsCustomSize="True" LabelText="" PlaceHolderText="再次输出密码" MaxLengthEnable="True" MaxLengthText="12" PasswordEnable="True" ctype="TextFieldObjectData">
                 <Size X="300.0000" Y="50.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="352.9793" Y="163.3863" />
+                <Position X="355.9939" Y="160.3732" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5430" Y="0.4085" />
+                <PrePosition X="0.5477" Y="0.4009" />
                 <PreSize X="0.4615" Y="0.1250" />
               </AbstractNodeData>
               <AbstractNodeData Name="Text_1_0_0" ActionTag="-163817594" Tag="26" IconVisible="False" LeftMargin="104.1635" RightMargin="465.8365" TopMargin="211.6066" BottomMargin="143.3934" FontSize="40" LabelText="确认" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -222,7 +222,7 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint />
-            <Position X="265.0229" Y="119.8856" />
+            <Position X="265.0288" Y="119.8720" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.2333" Y="0.1873" />

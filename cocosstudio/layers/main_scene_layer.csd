@@ -6,35 +6,91 @@
       <ObjectData Name="Layer" Tag="34" ctype="GameLayerObjectData">
         <Size X="1136.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="btnLogin" ActionTag="676586067" CallBackType="Click" CallBackName="btnLogin" Tag="39" IconVisible="False" LeftMargin="489.2441" RightMargin="496.7559" TopMargin="354.6832" BottomMargin="225.3168" TouchEnable="True" FontSize="20" ButtonText="登录" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="150.0000" Y="60.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="564.2441" Y="255.3168" />
+          <AbstractNodeData Name="PanelLogin" Visible="False" ActionTag="1872751130" Tag="35" IconVisible="False" LeftMargin="465.9885" RightMargin="470.0115" TopMargin="369.4564" BottomMargin="170.5436" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+            <Size X="200.0000" Y="100.0000" />
+            <Children>
+              <AbstractNodeData Name="btnLogin" ActionTag="676586067" CallBackType="Click" CallBackName="btnLogin" Tag="39" IconVisible="False" LeftMargin="30.4668" RightMargin="19.5332" TopMargin="21.2529" BottomMargin="18.7471" TouchEnable="True" FontSize="20" ButtonText="登录" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="150.0000" Y="60.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="105.4668" Y="48.7471" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.5273" Y="0.4875" />
+                <PreSize X="0.7500" Y="0.6000" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+                <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+                <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+            </Children>
+            <AnchorPoint />
+            <Position X="465.9885" Y="170.5436" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.4967" Y="0.3989" />
-            <PreSize X="0.1320" Y="0.0938" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
+            <PrePosition X="0.4102" Y="0.2665" />
+            <PreSize X="0.1761" Y="0.1563" />
+            <SingleColor A="255" R="150" G="200" B="255" />
+            <FirstColor A="255" R="150" G="200" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="btnLogout" ActionTag="1953608594" CallBackType="Click" CallBackName="btnLogout" Tag="40" IconVisible="False" LeftMargin="952.1819" RightMargin="137.8181" TopMargin="30.8030" BottomMargin="573.1970" TouchEnable="True" FontSize="14" ButtonText="注销" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="46.0000" Y="36.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="975.1819" Y="591.1970" />
+          <AbstractNodeData Name="PanelStartGame" ActionTag="-2084382903" Tag="36" IconVisible="False" LeftMargin="117.6989" RightMargin="58.3011" TopMargin="2.4012" BottomMargin="-2.4012" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+            <Size X="960.0000" Y="640.0000" />
+            <Children>
+              <AbstractNodeData Name="txtAccount" ActionTag="1172963921" Tag="38" IconVisible="False" LeftMargin="797.4628" RightMargin="70.5372" TopMargin="16.3761" BottomMargin="600.6239" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="92.0000" Y="23.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="843.4628" Y="612.1239" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.8786" Y="0.9564" />
+                <PreSize X="0.0958" Y="0.0359" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="btnLogout" ActionTag="1953608594" CallBackType="Click" CallBackName="btnLogout" Tag="40" IconVisible="False" LeftMargin="902.8585" RightMargin="11.1415" TopMargin="8.6913" BottomMargin="595.3087" TouchEnable="True" FontSize="14" ButtonText="注销" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="46.0000" Y="36.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="925.8585" Y="613.3087" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.9644" Y="0.9583" />
+                <PreSize X="0.0479" Y="0.0562" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+                <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+                <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="btnStartGame" ActionTag="-459915583" CallBackType="Click" CallBackName="btnStartGameClick" Tag="37" IconVisible="False" LeftMargin="387.3157" RightMargin="452.6843" TopMargin="306.1024" BottomMargin="253.8976" TouchEnable="True" FontSize="20" ButtonText="开始游戏" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="120.0000" Y="80.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="447.3157" Y="293.8976" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.4660" Y="0.4592" />
+                <PreSize X="0.1250" Y="0.1250" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+                <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+                <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+            </Children>
+            <AnchorPoint />
+            <Position X="117.6989" Y="-2.4012" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.8584" Y="0.9237" />
-            <PreSize X="0.0405" Y="0.0562" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
+            <PrePosition X="0.1036" Y="-0.0038" />
+            <PreSize X="0.8451" Y="1.0000" />
+            <SingleColor A="255" R="150" G="200" B="255" />
+            <FirstColor A="255" R="150" G="200" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
