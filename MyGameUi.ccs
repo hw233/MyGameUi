@@ -16,6 +16,7 @@
           <Project Name="login_layer.csd" Type="Layer" />
           <Project Name="main_scene_layer.csd" Type="Layer" />
           <Project Name="test_layer.csd" Type="Layer" />
+          <Project Name="create_user_scene_layer.csd" Type="Layer" />
         </Folder>
         <Folder Name="scenes">
           <Project Name="main_scene.csd" Type="Scene" />
