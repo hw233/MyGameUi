@@ -6,13 +6,13 @@
       <ObjectData Name="Layer" Tag="17" ctype="GameLayerObjectData">
         <Size X="1136.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="btnCreate" ActionTag="70554375" CallBackType="Click" CallBackName="btnCreateClick" Tag="18" IconVisible="False" LeftMargin="705.4951" RightMargin="330.5049" TopMargin="353.5037" BottomMargin="206.4963" TouchEnable="True" FontSize="20" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="btnCreate" ActionTag="70554375" CallBackType="Click" CallBackName="btnCreateClick" Tag="18" IconVisible="False" LeftMargin="358.5801" RightMargin="677.4199" TopMargin="310.4798" BottomMargin="249.5202" TouchEnable="True" FontSize="20" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="100.0000" Y="80.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="755.4951" Y="246.4963" />
+            <Position X="408.5801" Y="289.5202" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.6650" Y="0.3852" />
+            <PrePosition X="0.3597" Y="0.4524" />
             <PreSize X="0.0880" Y="0.1250" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
