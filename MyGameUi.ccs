@@ -4,23 +4,40 @@
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Folder Name="fonts">
+          <TTF Name="fzwb.ttf" />
           <TTF Name="fzzy.ttf" />
+          <TTF Name="fzzz.TTF" />
         </Folder>
-        <Folder Name="images">
-          <Image Name="ui_com_closesmall.png" />
-          <Image Name="ui_com_neikuang.png" />
-          <Image Name="ui_com_tongyong_02.png" />
+        <Folder Name="ui">
+          <Folder Name="common">
+            <PlistInfo Name="common.csi" Type="Plist" />
+            <Image Name="ui_com_bt1.png" />
+            <Image Name="ui_com_bt2.png" />
+            <Image Name="ui_com_bt3.png" />
+            <Image Name="ui_com_bt4.png" />
+            <Image Name="ui_com_di1.png" />
+            <Image Name="ui_com_di2.png" />
+            <Image Name="ui_com_di3.png" />
+            <Image Name="ui_com_di4.png" />
+            <Image Name="ui_com_di5.png" />
+            <Image Name="ui_com_di6.png" />
+            <Image Name="ui_com_di7.png" />
+            <Image Name="ui_com_di8.png" />
+            <Image Name="ui_com_di9.png" />
+          </Folder>
         </Folder>
-        <Folder Name="layers">
-          <Project Name="assets_update_layer.csd" Type="Layer" />
-          <Project Name="create_user_scene_layer.csd" Type="Layer" />
-          <Project Name="login_layer.csd" Type="Layer" />
-          <Project Name="main_scene_layer.csd" Type="Layer" />
-          <Project Name="test_layer.csd" Type="Layer" />
-        </Folder>
-        <Folder Name="scenes">
-          <Project Name="main_scene.csd" Type="Scene" />
-          <Project Name="main_scene_test.csd" Type="Scene" />
+        <Folder Name="views">
+          <Folder Name="layers">
+            <Project Name="assets_update_layer.csd" Type="Layer" />
+            <Project Name="create_user_scene_layer.csd" Type="Layer" />
+            <Project Name="login_layer.csd" Type="Layer" />
+            <Project Name="main_scene_layer.csd" Type="Layer" />
+            <Project Name="test_layer.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="scenes">
+            <Project Name="main_scene.csd" Type="Scene" />
+            <Project Name="main_scene_test.csd" Type="Scene" />
+          </Folder>
         </Folder>
       </RootFolder>
     </Group>

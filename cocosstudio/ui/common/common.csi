@@ -1,0 +1,21 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="common" Type="Plist" ID="63489dc2-fede-4075-aa2c-6227dca771bd" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="2" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="ui/common/ui_com_bt2.png" />
+      <FilePathData Path="ui/common/ui_com_bt3.png" />
+      <FilePathData Path="ui/common/ui_com_bt4.png" />
+      <FilePathData Path="ui/common/ui_com_bt1.png" />
+      <FilePathData Path="ui/common/ui_com_di1.png" />
+      <FilePathData Path="ui/common/ui_com_di2.png" />
+      <FilePathData Path="ui/common/ui_com_di3.png" />
+      <FilePathData Path="ui/common/ui_com_di4.png" />
+      <FilePathData Path="ui/common/ui_com_di5.png" />
+      <FilePathData Path="ui/common/ui_com_di6.png" />
+      <FilePathData Path="ui/common/ui_com_di7.png" />
+      <FilePathData Path="ui/common/ui_com_di8.png" />
+      <FilePathData Path="ui/common/ui_com_di9.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="256" />
+  </Content>
+</PlistInfoProjectFile>

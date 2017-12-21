@@ -9,35 +9,35 @@
           <AbstractNodeData Name="PanelLogin" ActionTag="-1107706250" Tag="10" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="265.5968" RightMargin="220.4032" TopMargin="149.5840" BottomMargin="140.4160" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="650.0000" Y="350.0000" />
             <Children>
-              <AbstractNodeData Name="btnLoginCancel" ActionTag="1600355641" CallBackType="Click" CallBackName="btnClickCancel" Tag="12" IconVisible="False" LeftMargin="566.7522" RightMargin="3.2478" TopMargin="3.3351" BottomMargin="286.6649" TouchEnable="True" FontSize="18" ButtonText="关闭" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                <Size X="80.0000" Y="60.0000" />
+              <AbstractNodeData Name="btnLoginCancel" ActionTag="1600355641" CallBackType="Click" CallBackName="btnClickCancel" Tag="12" IconVisible="False" LeftMargin="575.7522" RightMargin="12.2478" TopMargin="9.8351" BottomMargin="293.1649" TouchEnable="True" FontSize="18" ButtonText="关闭" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="32" Scale9Height="25" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="62.0000" Y="47.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="606.7522" Y="316.6649" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.9335" Y="0.9048" />
-                <PreSize X="0.1231" Y="0.1714" />
+                <PreSize X="0.0954" Y="0.1343" />
                 <FontResource Type="Normal" Path="fonts/fzzy.ttf" Plist="" />
-                <TextColor A="255" R="65" G="65" B="70" />
+                <TextColor A="255" R="255" G="255" B="255" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-                <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-                <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+                <PressedFileData Type="MarkedSubImage" Path="ui/common/ui_com_bt3.png" Plist="ui/common/common.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="ui/common/ui_com_bt3.png" Plist="ui/common/common.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btnLoginOk" ActionTag="-443793637" CallBackType="Click" CallBackName="btnClickOk" Tag="11" IconVisible="False" LeftMargin="419.4153" RightMargin="80.5847" TopMargin="257.7534" BottomMargin="32.2466" TouchEnable="True" FontSize="18" ButtonText="登录" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                <Size X="150.0000" Y="60.0000" />
+              <AbstractNodeData Name="btnLoginOk" ActionTag="-443793637" CallBackType="Click" CallBackName="btnClickOk" Tag="11" IconVisible="False" LeftMargin="444.4152" RightMargin="105.5848" TopMargin="257.7534" BottomMargin="32.2466" TouchEnable="True" FontSize="18" ButtonText="登录" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="32" Scale9Height="25" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="100.0000" Y="60.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="494.4153" Y="62.2466" />
+                <Position X="494.4152" Y="62.2466" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.7606" Y="0.1778" />
-                <PreSize X="0.2308" Y="0.1714" />
+                <PreSize X="0.1538" Y="0.1714" />
                 <FontResource Type="Normal" Path="fonts/fzzy.ttf" Plist="" />
-                <TextColor A="255" R="65" G="65" B="70" />
+                <TextColor A="255" R="255" G="255" B="255" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-                <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-                <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+                <PressedFileData Type="MarkedSubImage" Path="ui/common/ui_com_bt3.png" Plist="ui/common/common.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="ui/common/ui_com_bt3.png" Plist="ui/common/common.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -81,19 +81,19 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btnRegister" ActionTag="1480833296" CallBackType="Click" CallBackName="btnRegister" Tag="16" IconVisible="False" LeftMargin="105.1685" RightMargin="394.8315" TopMargin="257.1942" BottomMargin="32.8058" TouchEnable="True" FontSize="18" ButtonText="免费注册" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                <Size X="150.0000" Y="60.0000" />
+              <AbstractNodeData Name="btnRegister" ActionTag="1480833296" CallBackType="Click" CallBackName="btnRegister" Tag="16" IconVisible="False" LeftMargin="130.1685" RightMargin="419.8315" TopMargin="257.1942" BottomMargin="32.8058" TouchEnable="True" FontSize="18" ButtonText="免费注册" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="32" Scale9Height="25" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="100.0000" Y="60.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="180.1685" Y="62.8058" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.2772" Y="0.1794" />
-                <PreSize X="0.2308" Y="0.1714" />
+                <PreSize X="0.1538" Y="0.1714" />
                 <FontResource Type="Normal" Path="fonts/fzzy.ttf" Plist="" />
-                <TextColor A="255" R="65" G="65" B="70" />
+                <TextColor A="255" R="255" G="255" B="255" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-                <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-                <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+                <PressedFileData Type="MarkedSubImage" Path="ui/common/ui_com_bt3.png" Plist="ui/common/common.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="ui/common/ui_com_bt3.png" Plist="ui/common/common.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -112,35 +112,35 @@
           <AbstractNodeData Name="PanelRegister" Visible="False" ActionTag="813713588" Tag="17" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="265.0288" RightMargin="220.9712" TopMargin="120.1280" BottomMargin="119.8720" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="650.0000" Y="400.0000" />
             <Children>
-              <AbstractNodeData Name="btnLoginCancel" ActionTag="-189215889" CallBackType="Click" CallBackName="btnClickCancel" Tag="18" IconVisible="False" LeftMargin="570.2714" RightMargin="-0.2714" TopMargin="2.3000" BottomMargin="337.7000" TouchEnable="True" FontSize="18" ButtonText="关闭" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                <Size X="80.0000" Y="60.0000" />
+              <AbstractNodeData Name="btnLoginCancel" ActionTag="-189215889" CallBackType="Click" CallBackName="btnClickCancel" Tag="18" IconVisible="False" LeftMargin="579.2714" RightMargin="8.7286" TopMargin="8.8000" BottomMargin="344.2000" TouchEnable="True" FontSize="18" ButtonText="关闭" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="32" Scale9Height="25" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="62.0000" Y="47.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="610.2714" Y="367.7000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.9389" Y="0.9193" />
-                <PreSize X="0.1231" Y="0.1500" />
+                <PreSize X="0.0954" Y="0.1175" />
                 <FontResource Type="Normal" Path="fonts/fzzy.ttf" Plist="" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-                <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-                <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+                <PressedFileData Type="MarkedSubImage" Path="ui/common/ui_com_bt3.png" Plist="ui/common/common.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="ui/common/ui_com_bt3.png" Plist="ui/common/common.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btnRegisterOk" ActionTag="1091486135" CallBackType="Click" CallBackName="btnRegisterOk" Tag="19" IconVisible="False" LeftMargin="419.4153" RightMargin="80.5847" TopMargin="307.7534" BottomMargin="32.2466" TouchEnable="True" FontSize="18" ButtonText="注册" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                <Size X="150.0000" Y="60.0000" />
+              <AbstractNodeData Name="btnRegisterOk" ActionTag="1091486135" CallBackType="Click" CallBackName="btnRegisterOk" Tag="19" IconVisible="False" LeftMargin="463.4153" RightMargin="124.5847" TopMargin="314.2534" BottomMargin="38.7466" TouchEnable="True" FontSize="18" ButtonText="注册" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="32" Scale9Height="25" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="62.0000" Y="47.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="494.4153" Y="62.2466" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.7606" Y="0.1556" />
-                <PreSize X="0.2308" Y="0.1500" />
+                <PreSize X="0.0954" Y="0.1175" />
                 <FontResource Type="Normal" Path="fonts/fzzy.ttf" Plist="" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-                <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-                <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+                <PressedFileData Type="MarkedSubImage" Path="ui/common/ui_com_bt3.png" Plist="ui/common/common.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="ui/common/ui_com_bt3.png" Plist="ui/common/common.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -184,19 +184,19 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btnToLogin" ActionTag="-436869350" CallBackType="Click" CallBackName="btnToLogin" Tag="24" IconVisible="False" LeftMargin="105.1685" RightMargin="394.8315" TopMargin="307.1942" BottomMargin="32.8058" TouchEnable="True" FontSize="18" ButtonText="已有账号" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                <Size X="150.0000" Y="60.0000" />
+              <AbstractNodeData Name="btnToLogin" ActionTag="-436869350" CallBackType="Click" CallBackName="btnToLogin" Tag="24" IconVisible="False" LeftMargin="149.1685" RightMargin="438.8315" TopMargin="313.6942" BottomMargin="39.3058" TouchEnable="True" FontSize="18" ButtonText="已有账号" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="32" Scale9Height="25" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="62.0000" Y="47.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="180.1685" Y="62.8058" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.2772" Y="0.1570" />
-                <PreSize X="0.2308" Y="0.1500" />
+                <PreSize X="0.0954" Y="0.1175" />
                 <FontResource Type="Normal" Path="fonts/fzzy.ttf" Plist="" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-                <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-                <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+                <PressedFileData Type="MarkedSubImage" Path="ui/common/ui_com_bt3.png" Plist="ui/common/common.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="ui/common/ui_com_bt3.png" Plist="ui/common/common.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
